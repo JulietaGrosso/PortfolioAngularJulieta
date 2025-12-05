@@ -13,6 +13,11 @@ jobs:
       # 1. Checkout del repo
       - name: Checkout code
         uses: actions/checkout@v3
+        
+      - name: List repo structure
+        run: |
+          echo "Mostrando estructura desde el root:"
+          ls -R .
 
       # 2. Build de la imagen
       - name: Build Docker image
