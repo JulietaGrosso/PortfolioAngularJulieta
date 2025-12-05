@@ -1,5 +1,6 @@
 # Etapa 1: Build
-FROM node:18 AS build
+FROM node:22 AS build
+
 
 WORKDIR /app
 
@@ -12,7 +13,7 @@ COPY . .
 RUN npm run build
 
 # Etapa 2: Run SSR con Node
-FROM node:18-slim AS run
+FROM node:22-slim AS run
 
 WORKDIR /app
 
