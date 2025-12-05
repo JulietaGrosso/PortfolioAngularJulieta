@@ -4,7 +4,7 @@ import { Formulario } from './features/formulario/formulario';
 
 export const routes: Routes = [
     {path: '', component: Home},
-    {path: 'formulario/:id', component: Formulario}
+    {path: 'formulario/:id', component: Formulario, data: { prerender: false }}
     
 ];
 
