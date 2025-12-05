@@ -1,0 +1,15 @@
+<app-header></app-header>
+     <div class="mostrarInstituciones">
+            <h2 id="inst">Seleccionar una Institución:</h2>
+            <div class="instituciones">
+
+                @for (inst of institucion; track inst.id) {
+                     <a class="institucion" routerLink="/formulario/{{inst.id}}">
+                        <img [src]="inst.imagen" alt="{{inst.nombre}}">
+                         <h3>{{inst.nombre}}</h3>
+                     </a> 
+                }
+            </div>
+     </div>
+        
+<app-footer></app-footer>

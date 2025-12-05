@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  background-color: rgb(248, 230, 205);
+  font-family: "Roboto", sans-serif;
+  font-weight: weight;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:5px;
+  font-style: 30px;
+   font-variation-settings:
+    "wdth" 100;
+}
+
+
+a{
+  color: black;
+  font-size: 20px;
+  padding: 20px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  color: black;
+  font-size: 25px;
+  margin: 20px;
+  padding: 20px;
+}
+
+h3 {
+  color: black;
+  font-size: 15px;
+}
+i{
+   color: black;
+  font-size: 30px;
+}

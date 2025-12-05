@@ -1,0 +1,45 @@
+<app-header></app-header>
+<div class="secciones">
+         <h1>Sobre mi</h1>
+         <div class="informacion">
+            <div class="infoCard">
+                <a href="">
+                    <i class="fa-regular fa-user"></i>
+                </a>
+                    <h3>Información personal:</h3>
+                    <p>{{datosPersonales.descripcion}}</p>
+                <div class="datos">
+                    <ul>
+                        <li>{{datosPersonales.nombre}}</li>
+                        <li>{{datosPersonales.titulo}}</li>
+                        <li>{{datosPersonales.institucion}}</li>
+                        <li>{{datosPersonales.email}}</li>
+                        <li>{{datosPersonales.telefono}}</li>
+                        
+
+                    </ul>
+                </div>
+            </div>
+
+            @for (info of sobreMi; track info.id) {
+                 <div class="infoCard">
+                <a href="">
+                    <i class="fa-solid fa-laptop"></i>
+                </a>
+                  <h3>{{info.titulo}}</h3>
+               <div class="datos">
+                    <ul>
+                         @for (item of info.info; track item){      
+                            <li>{{item}}</li>
+                         } 
+                        
+                       
+                    </ul>
+                </div>
+            </div>
+            }
+            
+          
+         </div>
+    </div>
+<app-footer></app-footer>

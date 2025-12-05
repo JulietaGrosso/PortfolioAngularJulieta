@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "proyecto": "Proyecto Fotografía",
+    "descripcion": "Aplicación CRUD con Java y JSP.",
+    "tecnologias": ["Java", "MySQL"],
+    "linkRepositorio": "https://github.com/...",
+	"asignatura": "Programación I",
+	"docente": "Casali, Analia"
+
+
+  },
+
+   {
+    "id": 2,
+    "proyecto": "Portfolio Angular",
+    "descripcion": "Sitio web personal desarrollado con Angular 20.",
+    "tecnologias": ["Angular", "TypeScript"],
+    "linkRepositorio": "https://github.com/...",
+	"asignatura": "Programación I",
+	"docente": "Casali, Analia"
+   },
+
+   {
+    "id": 3,
+    "proyecto": "Proyecto Donaciones lt",
+    "descripcion": "Aplicación CRUD con Java y JSP..",
+    "tecnologias": ["Java", "MySQL"],
+    "linkRepositorio": "https://github.com/...",
+	"asignatura": "Practica Personalizante I",
+	"docente": "Ramirez, Mauro"
+   }
+
+
+]

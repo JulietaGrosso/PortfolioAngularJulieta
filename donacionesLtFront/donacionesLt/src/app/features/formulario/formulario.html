@@ -1,0 +1,32 @@
+<app-header></app-header>
+<div class="mostrarFormulario">
+            <h2>Completar la información:</h2>
+            <div class="formulario">
+                <form [formGroup]="form" (ngSubmit)="handleSubmit()">
+                    <div class="campo">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" formControlName="nombre">
+                        <br>
+                    </div>
+                    <div class="campo">
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" formControlName="apellido">
+                        <br>
+                    </div>
+                     <div class="campo">
+                        <label for="nombre">Correo:</label>
+                        <input type="text" id="correo" formControlName="correo">
+                        <br>
+                     </div>
+                    <div class="campo">
+                    <label for="nombre">Monto a donar:</label>
+                    <input type="text" id="monto" name="monto a donar" required formControlName="monto">
+                    <br>
+                    </div>
+                    <button type="submit">Realizar Donación</button>
+                
+                    </form>
+            </div>
+        </div>
+        
+<app-footer></app-footer>

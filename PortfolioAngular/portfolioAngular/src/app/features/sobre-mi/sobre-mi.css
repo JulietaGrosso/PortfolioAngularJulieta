@@ -1,0 +1,41 @@
+.secciones .informacion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.secciones .informacion .infoCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(226, 116, 221);
+    width: 250px;
+    padding: 25px 30px;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    overflow: hidden;
+     margin: 15px;
+}
+.secciones .informacion .infoCard i{
+   color: #000;
+   font-size: 20px;
+}
+.secciones .informacion .infoCard .datos{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: start;
+   align-items: flex-start; 
+   width: 100%;
+}
+.secciones .informacion .infoCard li{
+   color: #000;
+   font-size: 20px;
+}

@@ -1,0 +1,28 @@
+.mostrarInstituciones {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.mostrarInstituciones .instituciones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+.mostrarInstituciones .instituciones .institucion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  position: relative;
+}

@@ -1,0 +1,14 @@
+
+ {
+     "nombre": "Julieta Grosso",
+    "titulo": "Estudiante de Desarrollo de Software",
+    "institucion": "IES 63",
+    "descripcion": "Hola! Mi nombre es Julieta, soy estudiante en la Tecnicatura Superior de Desarrollo de Software. Este Portfolio fue desarrollado para la cátedra de Programación I.",
+    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4vT3XT7GpLOb2kvGcS05V2iAlESPpcY5kHg&s",
+    "email": "julieta.grosso02@gmail.com",
+    "telefono": "+54 3482673265",
+    "linkedin": "https://linkedin.com/in/...",
+    "github": "https://github.com/...",
+    "descripcionFooter": "Este Portfolio fue desarrollado para la cátedra de Programación I. Es un proyecto personal"
+
+}

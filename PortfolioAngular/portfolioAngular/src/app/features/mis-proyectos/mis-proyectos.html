@@ -1,0 +1,14 @@
+<app-header></app-header>
+<div class="secciones">
+            <h1>Proyectos:</h1>
+            <div class="proyectos">
+
+@for (proyecto of proyectos; track proyecto.id) {
+ 
+<app-tarjeta-proyecto [proyecto]="proyecto"></app-tarjeta-proyecto>
+              
+}
+
+ </div>
+
+    <app-footer></app-footer>

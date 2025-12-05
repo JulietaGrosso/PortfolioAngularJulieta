@@ -1,0 +1,12 @@
+[
+    { 
+    "id": 2,
+    "titulo": "Experiencia:",
+     "info": ["Editora Freelancer.", "Bibliotecaria."]
+    },
+    { 
+    "id": 3,
+    "titulo": "Habilidades:",
+     "info": ["Comunicación efectiva y empática.", "Capacidad de trabajar en equipo.", "Conocimientos de fotografía. "]
+    }
+]
