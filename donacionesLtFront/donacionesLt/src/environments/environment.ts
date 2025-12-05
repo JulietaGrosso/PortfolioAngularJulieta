@@ -1,5 +1,5 @@
 export const environment = {
     production: false,
-    donacionUrl: 'http://localhost:8082/donacion',
-    institucionUrl: 'http://localhost:8082/institucion/inst',
+    donacionUrl: 'http://104.251.222.158:9929/donacion',
+    institucionUrl: 'http://104.251.222.158:9929/institucion/inst',
 };
