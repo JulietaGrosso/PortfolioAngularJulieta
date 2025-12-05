@@ -1,0 +1,27 @@
+name: Build and Push Docker Image to Custom Registry
+
+on:
+  push:
+    branches:
+      - release
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout del repo
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # 2. Build de la imagen
+      - name: Build Docker image
+        run: |
+          docker build \
+            -t registry.qrgross.com/donacioneslt-front:latest \
+            ./donacionesLtFront/donacionesLt
+
+      # 3. Push al registry si la aprobación fue dada
+      - name: Push Docker image
+        run: |
+          docker push registry.qrgross.com/donacioneslt-front:latest
