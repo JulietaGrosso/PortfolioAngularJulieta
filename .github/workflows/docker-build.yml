@@ -18,6 +18,7 @@ jobs:
       - name: Build Docker image
         run: |
           docker build \
+            -f ./donacionesLtFront/donacionesLt/Dockerfile.ssr \
             -t registry.qrgross.com/donacioneslt-front:latest \
             ./donacionesLtFront/donacionesLt
 
